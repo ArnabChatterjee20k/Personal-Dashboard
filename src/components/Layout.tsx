@@ -1,8 +1,8 @@
 import React from 'react';
-import { LayoutGrid, CheckSquare, Film, BookOpen, Github, Moon, Sun, GitPullRequest } from 'lucide-react';
+import { LayoutGrid, Github, Moon, Sun, GitPullRequest } from 'lucide-react';
 import { useDarkMode } from '../hooks/useDarkMode';
 
-type TabType = 'dashboard' | 'todos' | 'watchlist' | 'problems' | 'pull-requests';
+type TabType = 'dashboard' | 'pull-requests';
 
 interface LayoutProps {
   children: React.ReactNode;
